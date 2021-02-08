@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -9,7 +10,140 @@ body{
 }
 
 header{
-    background-color: black;
-    height: 100px;
+    background-color: white;
+    height: 80px;
     width: 100%;
+    margin-bottom:60px;
 }
+
+header span{
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+header img{
+    margin-top: 10px;
+    vertical-align: middle;
+
+}
+
+/*start main*/
+.list-box{
+    width: 70%;
+    margin:20px auto;
+    background-color:white ;
+    
+}
+
+.box-up{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.blue-add{
+    text-decoration: none;
+    background-color: #47adf1;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.white-add{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color:lightgray;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    display: inline-block;
+
+}
+
+.box-down{
+    border-top: 3px solid #f6f8f9;
+    margin: 40px;
+}
+
+/* common point in lista*/
+.spunta{
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.croce{
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.editorial{
+    background-color: lightskyblue;
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.q1-goals{
+    background-color: rgb(179, 51, 179);
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.recruiting{
+    background-color: rgb(50, 182, 72);
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.mobile{
+    background-color: rgb(228, 165, 50);
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.website{
+    background-color: rgb(238, 10, 78);
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+.sales{
+    background-color: rgb(12, 247, 63);
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+/*inizio lista*/
+.big-list{
+    list-style-type: none;   
+    margin-top: 40px; 
+    font-size: 30px;
+}
+
+.little-list {
+    list-style-type: none;
+    font-size: 20px;
+    padding:20px 40px;
+}
+
+/*end lista*/
+
+/*end main*/
